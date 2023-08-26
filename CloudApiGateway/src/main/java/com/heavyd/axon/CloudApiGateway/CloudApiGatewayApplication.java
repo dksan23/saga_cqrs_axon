@@ -1,4 +1,4 @@
-package com.heavyd.axon.ProductsService;
+package com.heavyd.axon.CloudApiGateway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,10 +6,10 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-public class ProductsServiceApplication {
+public class CloudApiGatewayApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ProductsServiceApplication.class, args);
+		SpringApplication.run(CloudApiGatewayApplication.class, args);
 	}
 
 }
